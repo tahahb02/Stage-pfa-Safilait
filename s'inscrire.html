@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="image/jibal.jpg">
+    <title>Page d'inscription</title>
+    <link rel="stylesheet" href="s'inscrire.css"> <!-- Lien vers votre fichier CSS -->    
+</head>
+
+<body>
+    <div id="registration-page">
+        <form action="s'inscrire.php" method="post">
+            <h1>Inscription</h1>
+            <div class="input-box">
+                <input type="text" name="nom" placeholder="nom" required>
+                <i class='bx bxs-user bx-tada bx-rotate-90'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" name="prenom" placeholder="prenom" required>
+                <i class='bx bxs-envelope bx-tada bx-rotate-90'></i>
+            </div>
+            <div class="input-box">
+                <input type="email" name="email" placeholder="email" required>
+                <i class='bx bxs-lock-alt bx-tada bx-rotate-90'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="mot_de_passe" placeholder="mot de passe" required>
+                <i class='bx bxs-lock-alt bx-tada bx-rotate-90'></i>
+            </div>
+
+            <button type="submit" class="btn">s'inscrire</button>
+
+            <div class="login-here">
+                <p>J'ai deja un compte <br><a href="se connecter.html" target="_self">Se connecter</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

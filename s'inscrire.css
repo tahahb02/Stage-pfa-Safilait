@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*register page placer au milieu*/
+body {
+    display: flex;
+    align-items: center; /* Modifier l'alignement vertical */
+    justify-content: center; /* Modifier l'alignement horizontal */
+    min-height: 90vh;
+    background: url(reg2.jpg) no-repeat center center/cover;
+    margin: 0; /* Réinitialiser les marges du corps */
+    background-image: url('image/background.jpg');
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+
+
+#registration-page {
+    border: 2px solid black;
+    width: 420px;
+    background: transparent;
+    color: black;
+    border-radius: 15px;
+    padding: 15px 40px;
+    margin: 40px;
+}
+
+#registration-page h1 {
+    text-align: center;
+    font-size: 39px;
+    color: black;
+}
+
+#registration-page .input-box {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.input-box input {
+    width: 100%;
+    height: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 10px 60px 10px 25px;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to left, white, black);
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.login-here {
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+
+/* ... Autres styles ... */
